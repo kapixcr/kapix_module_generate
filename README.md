@@ -1,10 +1,10 @@
-# Perfex Module Generator
+# Kapix Generador de modulo
 
-**Perfex Module Generator** es una extensión para Visual Studio Code que te permite crear de manera rápida la estructura básica de un módulo para Perfex CRM dentro de tu espacio de trabajo.
+**Kapix Module Generator** es una extensión para Visual Studio Code que te permite crear de manera rápida la estructura básica de un módulo para Kapix dentro de tu espacio de trabajo.
 
 ## Características
 
-- Genera automáticamente las carpetas necesarias para un módulo de Perfex CRM: `controllers`, `models`, `views`, `helpers`, `language`, `config`.
+- Genera automáticamente las carpetas necesarias para un módulo de Kapix: `controllers`, `models`, `views`, `helpers`, `language`, `config`.
 - Crea el archivo principal del módulo (`module-name.php`) con información básica como el nombre del módulo, el autor y la descripción.
 - Verifica si la estructura del módulo ya existe para evitar sobrescribir archivos.
 
