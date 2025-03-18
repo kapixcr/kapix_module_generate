@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('perfex-module-generator.generatePerfexModule', async () => {
+	let disposable = vscode.commands.registerCommand('kapix-module-generator.generatekapixModule', async () => {
 		const moduleName = await vscode.window.showInputBox({ prompt: "Nombre del Módulo" });
 		const author = await vscode.window.showInputBox({ prompt: "Autor" });
 		const description = await vscode.window.showInputBox({ prompt: "Descripción" });
@@ -26,7 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
 				// Crear la carpeta principal del módulo
 				fs.mkdirSync(moduleDirectory, { recursive: true });
 
-				// Crear subcarpetas típicas del módulo de Perfex CRM
+				// Crear subcarpetas típicas del módulo de kapix CRM
 				const subFolders = ['controllers', 'models', 'views', 'helpers', 'language', 'config'];
 				subFolders.forEach(subFolder => {
 					const subFolderPath = path.join(moduleDirectory, subFolder);
