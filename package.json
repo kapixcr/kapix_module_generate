@@ -1,6 +1,6 @@
 {
-  "name": "perfex-module-generator",
-  "displayName": "perfex module generator",
+  "name": "kapix-module-generator",
+  "displayName": "kapix module generator",
   "description": "extension para crear la estructura de carpetas para crear modulos para visual estudios code",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "perfex-module-generator.generatePerfexModule",
-        "title": "Generar Módulo para Perfex CRM"
+        "command": "kapix-module-generator.generatekapixModule",
+        "title": "Generar Módulo para kapix CRM"
       }
     ]
   },
