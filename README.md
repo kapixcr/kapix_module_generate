@@ -11,7 +11,7 @@
 ## ¿Cómo usarla?
 
 1. Abre tu espacio de trabajo en VSCode.
-2. Ejecuta el comando `Perfex Module Generator: Generate Perfex Module` usando el **Command Palette** (`Ctrl + Shift + P` o `Cmd + Shift + P` en macOS).
+2. Ejecuta el comando `Kapix Module Generator: Generate Kapix Module` usando el **Command Palette** (`Ctrl + Shift + P` o `Cmd + Shift + P` en macOS).
 3. Ingresa la siguiente información:
    - **Nombre del Módulo**: Nombre del módulo que estás creando.
    - **Autor**: Tu nombre o el del creador del módulo.
